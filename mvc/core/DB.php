@@ -5,11 +5,11 @@
 	class DB
 	{
 		public $con;
-		public $svname="localhost";
-		public $username="root";
-		public $pw="";
-		public $dbname="watch";
-		function __construct(argument)
+		protected $svname="localhost";
+		protected $username="root";
+		protected $pw="";
+		protected $dbname="watch";
+		function __construct()
 		{
 			$this->con=mysqli_connect($this->svname,$this->username,$this->pw);
 			mysqli_select_db($this->con,$this->dbname);

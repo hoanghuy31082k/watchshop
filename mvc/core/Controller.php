@@ -11,7 +11,7 @@
 			return new $model;
 		}
 
-		function view($view , $data = [])
+		function view($view , $data=[])
 		{
 			require_once "./mvc/views/".$view.".php";
 		}

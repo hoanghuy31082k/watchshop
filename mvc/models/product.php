@@ -26,7 +26,7 @@ class Product extends DB
 
 	function get()
     {
-        echo "get";
+        return "get";
     }
 }
 ?>
