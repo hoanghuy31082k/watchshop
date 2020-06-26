@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+body{
+	
+	height: 100vh;
+	width: 100%;
+}
+
+.wrapper{
+	display: flex;
+	position: relative;
+}
+
+.wrapper .sidebar{
+	position: fixed;
+	width: 300px;
+	height: 100vh;
+	background-color: #303a52;
+}
+
+.wrapper .sidebar img{
+	width: 100%;
+	margin: auto;
+	background-color: #3e4b69;
+	padding: 30px 10px;
+}
+
+.wrapper .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid #bdb8d7;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(255,255,255,0.05);
+} 
+
+.wrapper .sidebar ul li a{
+	text-decoration: none;
+	color: #79839c;
+	display: block;
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-weight: 900;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #445275;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+
+.wrapper .main-content {
+	width: 100%;
+	height: 100%;
+	margin-left: 300px;
+	background-color: #394561;
+}
+
+.wrapper .main-content section {
+	width: 95%;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #303a52;
+	border-radius: 10px;
+}
+
+.wrapper .main-content section {
+	color: white;
+}
+
+.wrapper .main-content section input,
+.wrapper .main-content section label,
+.wrapper .main-content section select{
+	outline: none;
+	display: block;
+	margin-top: 10px;
+}
+
+.wrapper .main-content section input[type="submit"] {
+	outline: none;
+	border: none;
+	background-color: #8c7ae6;
+	width: 10em;
+	height: 3em;
+	color: white;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+.wrapper .main-content section input[type="text"],
+.wrapper .main-content section select{
+	width: 20%;
+	border: 2px solid #9e579d;
+	padding: 5px;
+	color: black;
+}
+
+.wrapper .main-content section input[type="submit"]:hover{
+	background-color: #9c88ff;
+	text-decoration: underline;
+}
+
+table {
+	width: 90%;
+	border-collapse: collapse;
+}
+
+table td,table th{
+	padding: 12px 15px;
+	border: 1px solid #9e579d;
+	text-align: center;
+}
+
+table th{
+	background-color: #574b90;
+}
+
+table td:nth-child(2),table td:nth-child(3){
+	width: 20%;
+}
+
+table td img{
+	width: 20%;
+}
+
+table a{
+	text-decoration: none;
+	color: #c0392b;
+}
+
+table a:hover{
+	color: #e74c3c;
+}
+
+table i{
+	font-size: 20px;
+}
